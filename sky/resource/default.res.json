@@ -1,0 +1,735 @@
+{
+	"groups": [
+		{
+			"keys": "Texture/logo.png,Texture/logo.image.json",
+			"name": "default"
+		},
+		{
+			"name": "preload",
+			"keys": "1_png,2_png,3_png,4_png,5_png,6_png,7_png,Space04-01_jpg,Space04-03_jpg,Space04-03_png,Space04-04_png,Space04-05_png,Space04-06_png,Space04-07_png,Space04-08_png,Space04-09_png,Space04-10_png,Space04-11_png,Space04-12_png,Space04-13_png,Space04-14-05-03_png,Space04-14-05-04_png,Space04-14-05_png,Space04-14_png,Space04-15_png,Space04-16_png,Space04-17_png,Space04-18_png,Space04-19_png,Space04-191_png,Space04-192_png,Space04-201_png,Space04-21_png,Space04-22_png,Space04-23_png,Space04-24_png,Space04-242_png,Space04-25_png,Space04-26_png,Space04-27_png,Space04-28_png,Space04-29_png,Space04-30_png,Space04-31_png,Space04-32_png,Space04-33_png,Space05-201_png,Space05-202_png,b1_png,b2_png,ball_png,left_png,lightbar_png,lightpie_png,right_png,start_jpg,start_png,story_png,loading_json,loadingBG_jpg,moveBG_png,num_fnt,num_png,smoke3_png,weiyan_json,weiyan_png,whitebar_png,zhezhao_png,page-01_png,page-02_png,ad_png,title_png,button-up_png,button-check_png,tag132_png,earth_png,button-left_png,button3_png,button2_png,button1_png,earth01_png,button5_png,button4_png,earth02_png,earth03_png,tag11_png,tag04_png,tag12_png,button-right_png,tag13_png,tag03_png,play_png,tag02_png,circle01_png,tag01_png,Space05-01_png,page-03_png,page-07_png,page-06_png,page-10_png,page-04_png,page-05_png,Space04-01_png,page-08_png,page-09_png,mh3_jpg,mh2_jpg,mh1_jpg,ship1-00-03_png,ship1-01_png,ship1-03_png,ship1-02_png,ship1-05_png,ship1-04_png"
+		}
+	],
+	"resources": [
+		{
+			"url": "newMaterial.mat.json",
+			"type": "Material",
+			"name": "newMaterial.mat.json"
+		},
+		{
+			"url": "2d/default.thm.json",
+			"type": "json",
+			"name": "default_thm_json"
+		},
+		{
+			"url": "Texture/logo.image.json",
+			"type": "json",
+			"name": "Texture/logo.image.json"
+		},
+		{
+			"url": "Texture/logo.png",
+			"type": "image",
+			"name": "Texture/logo.png"
+		},
+		{
+			"url": "2d/assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "2d/assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "Assets/scene/newScene.scene.json",
+			"type": "Scene",
+			"name": "Assets/scene/newScene.scene.json"
+		},
+		{
+			"url": "2d/assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "2d/assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "2d/assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "2d/assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "2d/assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "2d/assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "2d/assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "2d/assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "2d/assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "2d/assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "2d/assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "2d/assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "2d/assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "2d/assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "2d/assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "2d/assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "2d/assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "2d/assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "2d/assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "2d/assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "2d/assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "2d/assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "2d/assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"name": "1_png",
+			"type": "image",
+			"url": "2d/assets/plane/1.png"
+		},
+		{
+			"name": "2_png",
+			"type": "image",
+			"url": "2d/assets/plane/2.png"
+		},
+		{
+			"name": "3_png",
+			"type": "image",
+			"url": "2d/assets/plane/3.png"
+		},
+		{
+			"name": "4_png",
+			"type": "image",
+			"url": "2d/assets/plane/4.png"
+		},
+		{
+			"name": "5_png",
+			"type": "image",
+			"url": "2d/assets/plane/5.png"
+		},
+		{
+			"name": "6_png",
+			"type": "image",
+			"url": "2d/assets/plane/6.png"
+		},
+		{
+			"name": "7_png",
+			"type": "image",
+			"url": "2d/assets/plane/7.png"
+		},
+		{
+			"name": "Space04-01_jpg",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-01.jpg"
+		},
+		{
+			"name": "Space04-03_jpg",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-03.jpg"
+		},
+		{
+			"name": "Space04-03_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-03.png"
+		},
+		{
+			"name": "Space04-04_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-04.png"
+		},
+		{
+			"name": "Space04-05_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-05.png"
+		},
+		{
+			"name": "Space04-06_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-06.png"
+		},
+		{
+			"name": "Space04-07_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-07.png"
+		},
+		{
+			"name": "Space04-08_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-08.png"
+		},
+		{
+			"name": "Space04-09_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-09.png"
+		},
+		{
+			"name": "Space04-10_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-10.png"
+		},
+		{
+			"name": "Space04-11_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-11.png"
+		},
+		{
+			"name": "Space04-12_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-12.png"
+		},
+		{
+			"name": "Space04-13_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-13.png"
+		},
+		{
+			"name": "Space04-14-05-03_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-14-05-03.png"
+		},
+		{
+			"name": "Space04-14-05-04_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-14-05-04.png"
+		},
+		{
+			"name": "Space04-14-05_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-14-05.png"
+		},
+		{
+			"name": "Space04-14_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-14.png"
+		},
+		{
+			"name": "Space04-15_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-15.png"
+		},
+		{
+			"name": "Space04-16_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-16.png"
+		},
+		{
+			"name": "Space04-17_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-17.png"
+		},
+		{
+			"name": "Space04-18_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-18.png"
+		},
+		{
+			"name": "Space04-19_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-19.png"
+		},
+		{
+			"name": "Space04-191_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-191.png"
+		},
+		{
+			"name": "Space04-192_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-192.png"
+		},
+		{
+			"name": "Space04-201_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-201.png"
+		},
+		{
+			"name": "Space04-21_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-21.png"
+		},
+		{
+			"name": "Space04-22_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-22.png"
+		},
+		{
+			"name": "Space04-23_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-23.png"
+		},
+		{
+			"name": "Space04-24_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-24.png"
+		},
+		{
+			"name": "Space04-242_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-242.png"
+		},
+		{
+			"name": "Space04-25_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-25.png"
+		},
+		{
+			"name": "Space04-26_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-26.png"
+		},
+		{
+			"name": "Space04-27_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-27.png"
+		},
+		{
+			"name": "Space04-28_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-28.png"
+		},
+		{
+			"name": "Space04-29_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-29.png"
+		},
+		{
+			"name": "Space04-30_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-30.png"
+		},
+		{
+			"name": "Space04-31_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-31.png"
+		},
+		{
+			"name": "Space04-32_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-32.png"
+		},
+		{
+			"name": "Space04-33_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space04-33.png"
+		},
+		{
+			"name": "Space05-201_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space05-201.png"
+		},
+		{
+			"name": "Space05-202_png",
+			"type": "image",
+			"url": "2d/assets/plane/Space05-202.png"
+		},
+		{
+			"name": "b1_png",
+			"type": "image",
+			"url": "2d/assets/plane/b1.png"
+		},
+		{
+			"name": "b2_png",
+			"type": "image",
+			"url": "2d/assets/plane/b2.png"
+		},
+		{
+			"name": "ball_png",
+			"type": "image",
+			"url": "2d/assets/plane/ball.png"
+		},
+		{
+			"name": "left_png",
+			"type": "image",
+			"url": "2d/assets/plane/left.png"
+		},
+		{
+			"name": "lightbar_png",
+			"type": "image",
+			"url": "2d/assets/plane/lightbar.png"
+		},
+		{
+			"name": "lightpie_png",
+			"type": "image",
+			"url": "2d/assets/plane/lightpie.png"
+		},
+		{
+			"name": "right_png",
+			"type": "image",
+			"url": "2d/assets/plane/right.png"
+		},
+		{
+			"name": "start_jpg",
+			"type": "image",
+			"url": "2d/assets/plane/start.jpg"
+		},
+		{
+			"name": "start_png",
+			"type": "image",
+			"url": "2d/assets/plane/start.png"
+		},
+		{
+			"name": "story_png",
+			"type": "image",
+			"url": "2d/assets/plane/story.png"
+		},
+		{
+			"name": "loading_json",
+			"type": "sheet",
+			"url": "2d/assets/plane/texture/loading.json",
+			"subkeys": "loading_icon_png,loading_bar1_png,loading_bar2_png"
+		},
+		{
+			"name": "loadingBG_jpg",
+			"type": "image",
+			"url": "2d/assets/plane/texture/loadingBG.jpg"
+		},
+		{
+			"name": "moveBG_png",
+			"type": "image",
+			"url": "2d/assets/plane/texture/moveBG.png"
+		},
+		{
+			"name": "num_fnt",
+			"type": "font",
+			"url": "2d/assets/plane/texture/num.fnt"
+		},
+		{
+			"name": "num_png",
+			"type": "image",
+			"url": "2d/assets/plane/texture/num.png"
+		},
+		{
+			"name": "smoke3_png",
+			"type": "image",
+			"url": "2d/assets/plane/texture/smoke3.png"
+		},
+		{
+			"name": "weiyan_json",
+			"type": "json",
+			"url": "2d/assets/plane/weiyan.json"
+		},
+		{
+			"name": "weiyan_png",
+			"type": "image",
+			"url": "2d/assets/plane/weiyan.png"
+		},
+		{
+			"name": "whitebar_png",
+			"type": "image",
+			"url": "2d/assets/plane/whitebar.png"
+		},
+		{
+			"name": "zhezhao_png",
+			"type": "image",
+			"url": "2d/assets/plane/zhezhao.png"
+		},
+		{
+			"name": "page-01_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page-01.png"
+		},
+		{
+			"name": "page-02_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page-02.png"
+		},
+		{
+			"name": "ad_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/ad.png"
+		},
+		{
+			"name": "title_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/title.png"
+		},
+		{
+			"name": "button-up_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/button-up.png"
+		},
+		{
+			"name": "button-check_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/button-check.png"
+		},
+		{
+			"name": "tag132_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/tag132.png"
+		},
+		{
+			"name": "earth_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/earth.png"
+		},
+		{
+			"name": "button-left_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/button-left.png"
+		},
+		{
+			"name": "button3_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/button3.png"
+		},
+		{
+			"name": "button2_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/button2.png"
+		},
+		{
+			"name": "button1_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/button1.png"
+		},
+		{
+			"name": "earth01_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/earth01.png"
+		},
+		{
+			"name": "button5_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/button5.png"
+		},
+		{
+			"name": "button4_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/button4.png"
+		},
+		{
+			"name": "earth02_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/earth02.png"
+		},
+		{
+			"name": "earth03_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/earth03.png"
+		},
+		{
+			"name": "tag11_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/tag11.png"
+		},
+		{
+			"name": "tag04_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/tag04.png"
+		},
+		{
+			"name": "tag12_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/tag12.png"
+		},
+		{
+			"name": "button-right_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/button-right.png"
+		},
+		{
+			"name": "tag13_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/tag13.png"
+		},
+		{
+			"name": "tag03_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/tag03.png"
+		},
+		{
+			"name": "play_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/play.png"
+		},
+		{
+			"name": "tag02_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/tag02.png"
+		},
+		{
+			"name": "circle01_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/circle01.png"
+		},
+		{
+			"name": "tag01_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page/tag01.png"
+		},
+		{
+			"name": "Space05-01_png",
+			"type": "image",
+			"url": "2d/assets/beijing/Space05-01.png"
+		},
+		{
+			"name": "page-03_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page-03.png"
+		},
+		{
+			"name": "page-07_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page-07.png"
+		},
+		{
+			"name": "page-06_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page-06.png"
+		},
+		{
+			"name": "page-10_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page-10.png"
+		},
+		{
+			"name": "page-04_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page-04.png"
+		},
+		{
+			"name": "page-05_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page-05.png"
+		},
+		{
+			"name": "Space04-01_png",
+			"type": "image",
+			"url": "2d/assets/beijing/Space04-01.png"
+		},
+		{
+			"name": "page-08_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page-08.png"
+		},
+		{
+			"name": "page-09_png",
+			"type": "image",
+			"url": "2d/assets/beijing/page-09.png"
+		},
+		{
+			"name": "mh3_jpg",
+			"type": "image",
+			"url": "2d/assets/beijing/mh3.jpg"
+		},
+		{
+			"name": "mh2_jpg",
+			"type": "image",
+			"url": "2d/assets/beijing/mh2.jpg"
+		},
+		{
+			"name": "mh1_jpg",
+			"type": "image",
+			"url": "2d/assets/beijing/mh1.jpg"
+		},
+		{
+			"name": "ship1-00-03_png",
+			"type": "image",
+			"url": "2d/assets/boss/ship1-00-03.png"
+		},
+		{
+			"name": "ship1-01_png",
+			"type": "image",
+			"url": "2d/assets/boss/ship1-01.png"
+		},
+		{
+			"name": "ship1-03_png",
+			"type": "image",
+			"url": "2d/assets/boss/ship1-03.png"
+		},
+		{
+			"name": "ship1-02_png",
+			"type": "image",
+			"url": "2d/assets/boss/ship1-02.png"
+		},
+		{
+			"name": "ship1-05_png",
+			"type": "image",
+			"url": "2d/assets/boss/ship1-05.png"
+		},
+		{
+			"name": "ship1-04_png",
+			"type": "image",
+			"url": "2d/assets/boss/ship1-04.png"
+		}
+	]
+}

@@ -1,0 +1,92 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "paper.GameObject",
+			"name": "camera",
+			"memberof": "base.BaseScene",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "egret.EventDispatcher",
+			"name": "dispatcher",
+			"memberof": "base.BaseScene",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "Array<Object>",
+			"name": "listeners",
+			"memberof": "base.BaseScene",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "name",
+			"memberof": "base.BaseScene",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "paper.Scene",
+			"name": "scene",
+			"memberof": "base.BaseScene",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "eui.UILayer",
+			"name": "uiLayer",
+			"memberof": "base.BaseScene",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "BaseScene",
+			"memberof": "base.BaseScene",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "name",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "Create",
+			"memberof": "base.BaseScene",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "Switch",
+			"memberof": "base.BaseScene",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "scene",
+					"type": "base.BaseScene",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "BaseScene",
+		"memberof": "base",
+		"filename": "base\\BaseScene.ts",
+		"children": [
+			"game.LoadingScene",
+			"game.MainScene"
+		]
+	}
+}

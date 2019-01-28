@@ -1,0 +1,75 @@
+{
+    "version": "3",
+    "asset": {
+        "version": "2.0"
+    },
+    "materials": [
+        {
+            "extensions": {
+                "KHR_techniques_webgl": {
+                    "technique": "builtin/meshbasic.shader.json",
+                    "values": {
+                        "uvTransform": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "refractionRatio": [],
+                        "boneTexture": "",
+                        "diffuse": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "opacity": 1,
+                        "map": "Texture/logo.image.json",
+                        "alphaMap": "",
+                        "aoMap": "",
+                        "aoMapIntensity": 1,
+                        "reflectivity": [],
+                        "envMapIntensity": 1,
+                        "envMap": "",
+                        "flipEnvMap": 1,
+                        "maxMipLevel": [],
+                        "specularMap": "",
+                        "morphTargetInfluences[0]": [],
+                        "boneTextureSize": [],
+                        "boneMatrices[0]": [],
+                        "logDepthBufFC": [],
+                        "fogColor": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "fogDensity": [],
+                        "fogNear": [],
+                        "fogFar": [],
+                        "clippingPlanes[0]": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                "paper": {
+                    "renderQueue": -1
+                }
+            }
+        }
+    ],
+    "extensionsRequired": [
+        "paper",
+        "KHR_techniques_webgl"
+    ],
+    "extensionsUsed": [
+        "paper",
+        "KHR_techniques_webgl"
+    ]
+}

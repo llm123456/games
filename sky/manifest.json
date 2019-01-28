@@ -1,0 +1,31 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/tween/tween.js",
+		"egret3d/bin/egret3d.js",
+		"inspector/bin/inspector.js"
+	],
+	"game": [
+		"bin-debug/base/BaseScene.js",
+		"bin-debug/base/RockerBar.js",
+		"bin-debug/base/AssetAdapter.js",
+		"bin-debug/Main.js",
+		"bin-debug/base/Bg.js",
+		"bin-debug/base/Bullet.js",
+		"bin-debug/base/Enemy.js",
+		"bin-debug/base/MyDialog.js",
+		"bin-debug/base/Plane.js",
+		"bin-debug/base/API.js",
+		"bin-debug/base/ThemeAdapter.js",
+		"bin-debug/base/UserData.js",
+		"bin-debug/game/GameUtils.js",
+		"bin-debug/game/LoadingScene.js",
+		"bin-debug/game/MainScene.js",
+		"bin-debug/game/PlayScene.js",
+		"bin-debug/game/RotateBehaviour.js",
+		"bin-debug/game/StoryScene.js"
+	]
+}

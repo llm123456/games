@@ -1,0 +1,55 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "Object",
+			"name": "data",
+			"memberof": "base.UserData",
+			"scope": "instance",
+			"default": "null"
+		},
+		{
+			"kind": "member",
+			"type": "base.UserData",
+			"name": "instance",
+			"memberof": "base.UserData",
+			"scope": "static",
+			"default": "null"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "uid",
+			"memberof": "base.UserData",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "Init",
+			"memberof": "base.UserData",
+			"scope": "static",
+			"params": [
+				{
+					"name": "uid",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "Sync",
+			"memberof": "base.UserData",
+			"scope": "static"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "UserData",
+		"memberof": "base",
+		"filename": "base\\UserData.ts"
+	}
+}

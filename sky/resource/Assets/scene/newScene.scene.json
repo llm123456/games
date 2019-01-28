@@ -1,0 +1,164 @@
+{
+    "version": 3,
+    "assets": [
+        "builtin/cube.mesh.bin",
+        "newMaterial.mat.json"
+    ],
+    "objects": [
+        {
+            "uuid": 4384,
+            "class": "paper.Scene",
+            "name": "newScene.scene.json",
+            "extras": {},
+            "lightmapIntensity": 1,
+            "ambientColor": [
+                0.21,
+                0.22,
+                0.25,
+                1
+            ],
+            "fog": [
+                0,
+                0.01,
+                0.01,
+                100,
+                0.5,
+                0.5,
+                0.5,
+                1
+            ],
+            "lightmaps": [],
+            "gameObjects": [
+                {
+                    "uuid": "4e1d39ed-d6e7-4ae0-b8a2-e2442853c6a7"
+                },
+                {
+                    "uuid": "8ffb5f42-731a-4d38-bba5-0f9d1633af84"
+                },
+                {
+                    "uuid": "80333e1d-c981-45f9-879e-59ed3f26199d"
+                }
+            ]
+        },
+        {
+            "uuid": "4e1d39ed-d6e7-4ae0-b8a2-e2442853c6a7",
+            "class": "paper.GameObject",
+            "name": "cube",
+            "extras": {},
+            "components": [
+                {
+                    "uuid": "d1f6e062-e520-4b92-8b81-7d0657450fe8"
+                },
+                {
+                    "uuid": "8c18efc9-9087-46ba-a508-2fad7b311168"
+                },
+                {
+                    "uuid": "a1244b74-210d-4b3c-a0c8-71d93a80ac0f"
+                },
+                {
+                    "uuid": "6ce31c10-8a05-4032-80db-852cf65781fd"
+                }
+            ]
+        },
+        {
+            "uuid": "8ffb5f42-731a-4d38-bba5-0f9d1633af84",
+            "class": "paper.GameObject",
+            "name": "Main Camera",
+            "tag": "Main Camera",
+            "extras": {},
+            "components": [
+                {
+                    "uuid": "e9cc92de-1e60-4445-891c-6b7dbb2cdb60"
+                },
+                {
+                    "uuid": "6c12ca67-0059-4b20-a98f-ed6f4a6db30e"
+                }
+            ]
+        },
+        {
+            "uuid": "80333e1d-c981-45f9-879e-59ed3f26199d",
+            "class": "paper.GameObject",
+            "name": "UI",
+            "extras": {},
+            "components": [
+                {
+                    "uuid": "3023256e-61f5-423e-a93c-af97fdfdfa82"
+                },
+                {
+                    "uuid": "c1f08cf8-fd68-4b68-816c-a9703fe7d6ef"
+                },
+                {
+                    "uuid": "b7dc4bd4-e43d-433e-9894-99bd5184c785"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "uuid": "d1f6e062-e520-4b92-8b81-7d0657450fe8",
+            "class": "egret3d.Transform",
+            "extras": {}
+        },
+        {
+            "uuid": "8c18efc9-9087-46ba-a508-2fad7b311168",
+            "class": "egret3d.MeshFilter",
+            "_mesh": {
+                "asset": 0
+            },
+            "extras": {}
+        },
+        {
+            "uuid": "a1244b74-210d-4b3c-a0c8-71d93a80ac0f",
+            "class": "game.RotateBehaviour",
+            "speed": 2,
+            "extras": {}
+        },
+        {
+            "uuid": "6ce31c10-8a05-4032-80db-852cf65781fd",
+            "class": "egret3d.MeshRenderer",
+            "_materials": [
+                {
+                    "asset": 1
+                }
+            ],
+            "extras": {}
+        },
+        {
+            "uuid": "e9cc92de-1e60-4445-891c-6b7dbb2cdb60",
+            "class": "egret3d.Transform",
+            "localPosition": [
+                0,
+                4,
+                -4
+            ],
+            "localRotation": [
+                0.3826834323650898,
+                0,
+                0,
+                0.9238795325112867
+            ],
+            "children": [],
+            "extras": {}
+        },
+        {
+            "uuid": "6c12ca67-0059-4b20-a98f-ed6f4a6db30e",
+            "class": "egret3d.Camera",
+            "extras": {}
+        },
+        {
+            "uuid": "3023256e-61f5-423e-a93c-af97fdfdfa82",
+            "class": "egret3d.Transform",
+            "extras": {}
+        },
+        {
+            "uuid": "c1f08cf8-fd68-4b68-816c-a9703fe7d6ef",
+            "class": "egret3d.Egret2DRenderer",
+            "extras": {}
+        },
+        {
+            "uuid": "b7dc4bd4-e43d-433e-9894-99bd5184c785",
+            "class": "game.GameUIScript",
+            "extras": {}
+        }
+    ]
+}

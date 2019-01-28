@@ -1,0 +1,86 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "paper.GameObject",
+			"name": "camera",
+			"memberof": "base.BaseScene",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "base.BaseScene"
+		},
+		{
+			"kind": "member",
+			"type": "egret.EventDispatcher",
+			"name": "dispatcher",
+			"memberof": "base.BaseScene",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "base.BaseScene"
+		},
+		{
+			"kind": "member",
+			"type": "Array<Object>",
+			"name": "listeners",
+			"memberof": "base.BaseScene",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "base.BaseScene"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "name",
+			"memberof": "base.BaseScene",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "base.BaseScene"
+		},
+		{
+			"kind": "member",
+			"type": "paper.Scene",
+			"name": "scene",
+			"memberof": "base.BaseScene",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "base.BaseScene"
+		},
+		{
+			"kind": "member",
+			"type": "eui.UILayer",
+			"name": "uiLayer",
+			"memberof": "base.BaseScene",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "base.BaseScene"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "MainScene",
+			"memberof": "game.MainScene",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "Create",
+			"memberof": "base.BaseScene",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "base.BaseScene"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "MainScene",
+		"memberof": "game",
+		"filename": "game\\MainScene.ts",
+		"augments": [
+			"base.BaseScene"
+		]
+	}
+}

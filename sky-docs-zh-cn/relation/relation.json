@@ -1,0 +1,58 @@
+{
+	"api": {
+		"window": {
+			"globalFunction": [
+				{
+					"name": "main",
+					"description": ""
+				}
+			]
+		},
+		"base": {
+			"class": [
+				{
+					"name": "API",
+					"description": ""
+				},
+				{
+					"name": "AssetAdapter",
+					"description": ""
+				},
+				{
+					"name": "BaseScene",
+					"description": ""
+				},
+				{
+					"name": "ThemeAdapter",
+					"description": ""
+				},
+				{
+					"name": "UserData",
+					"description": ""
+				}
+			]
+		},
+		"game": {
+			"class": [
+				{
+					"name": "LoadingScene",
+					"description": ""
+				},
+				{
+					"name": "MainScene",
+					"description": ""
+				}
+			]
+		}
+	},
+	"other": {
+		"global": {
+			"class": [
+				{
+					"name": "Types",
+					"description": "基础类型介绍"
+				}
+			]
+		}
+	}
+}

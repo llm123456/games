@@ -1,0 +1,11 @@
+{
+	"globalFunction": [
+		{
+			"filename": "Main.ts",
+			"kind": "globalFunction",
+			"name": "main",
+			"memberof": "window",
+			"scope": "instance"
+		}
+	]
+}

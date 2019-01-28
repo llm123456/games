@@ -1,0 +1,21 @@
+{
+	"api": {
+		"class": [
+			"base.API",
+			"base.AssetAdapter",
+			"base.BaseScene",
+			"base.ThemeAdapter",
+			"base.UserData",
+			"game.LoadingScene",
+			"game.MainScene"
+		],
+		"globalFunction": [
+			"window.globalFunction"
+		]
+	},
+	"other": {
+		"class": [
+			"global.Types"
+		]
+	}
+}

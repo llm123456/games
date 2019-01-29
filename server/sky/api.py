@@ -88,30 +88,36 @@ def get_plot(**params):
 #获取当前等级
 @api
 def get_user_level(**params):
-	res = {}
-	user_name = params['user_name']
-	level = 1
-	checkpoint_list = []#关卡，和关卡名
-	if user_name:
-		user_id = User.objects.filter(user_id=user_name).first()
-		if user_id:
-			level = user_id.checkpoint.checkpoint_id if user_id.checkpoint else 1
-			checkpoint = Checkpoint.objects.all().order_by('checkpoint_id')
-			for x in checkpoint:
-				guanka = {}
-				guanka['level_id'] = x.checkpoint_id
-				guanka['level_name'] = x.checkpoint_name
-				checkpoint_list.append(guanka)
+ res = {}
+ user_name = params['user_name']
+ level = 1
+ if user_name:
+  user_id = User.objects.filter(user_id=user_name).first()
+  if user_id:
+   level = user_id.checkpoint.checkpoint_id if user_id.checkpoint else 1
+  else:
+   res['error'] = '请登录游戏!'
+ else:
+  res['error'] = '请登录游戏!'
+ res['level'] = int(level) - 1
 
-		else:
-			res['error'] = '请登录游戏!'
+ return res
 
-	else:
-		res['error'] = '请登录游戏!'
-	res['level'] = int(level) - 1
-	res['level_list'] = checkpoint_list
 
-	return res
+#展示所有关卡
+@api
+def get_level(**params):
+ res = {}
+ checkpoint_list = []
+ checkpoint = Checkpoint.objects.all().order_by('checkpoint_id')
+ for x in checkpoint:
+  guanka = {}
+  guanka['level_id'] = x.checkpoint_id
+  guanka['level_name'] = x.checkpoint_name
+  checkpoint_list.append(guanka)
+ res['level_list'] = checkpoint_list
+ return res
+ 
 
 #通关加一级
 @api

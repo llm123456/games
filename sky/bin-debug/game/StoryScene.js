@@ -65,7 +65,7 @@ var game;
                     this._width = this.uiLayer.width;
                     this._height = this.uiLayer.height;
                     base.API.Init("http://127.0.0.1:8000/api/");
-                    base.API.call("get_user_plot", { user_name: "a", level: 1 }).then(function (response) {
+                    base.API.call("get_plot", { user_name: "a", level: 1 }).then(function (response) {
                         console.log(response);
                         var bgImg = game.createBitmapByName("Space04-03_jpg");
                         bgImg.height = _this._height;
@@ -99,6 +99,7 @@ var game;
                         // console.log(img1)
                         // console.log(img2)
                         // console.log(img3)
+                        console.log(_this.images);
                         _this.rightCon = new egret.DisplayObjectContainer();
                         _this.rightCon.height = _this._height;
                         _this.rightCon.width = _this._width;

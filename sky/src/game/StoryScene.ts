@@ -27,7 +27,7 @@ namespace game{
 			this._width = this.uiLayer.width;
 			this._height = this.uiLayer.height;
 			base.API.Init("http://127.0.0.1:8000/api/")
-			base.API.call("get_user_plot",{user_name:"a",level:1}).then((response)=>{
+			base.API.call("get_plot",{user_name:"a",level:1}).then((response)=>{
 				console.log(response)
 
 				var bgImg:egret.Bitmap = game.createBitmapByName("Space04-03_jpg");
@@ -64,6 +64,7 @@ namespace game{
 				// console.log(img1)
 				// console.log(img2)
 				// console.log(img3)
+				console.log(this.images)
 
 				this.rightCon = new egret.DisplayObjectContainer();
 				this.rightCon.height = this._height;
